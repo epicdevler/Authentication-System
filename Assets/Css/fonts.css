@@ -1,3 +1,5 @@
+
+/*  ADDING UI FONT FACES   */
 @font-face {
     font-family: "Roboto Bold";
     src: url("../Fonts/Roboto-Bold.ttf");
@@ -11,6 +13,7 @@
     src: url("../Fonts/Lato-Bold.ttf");
 }
 
+/*  ASSIGNING FONT FACES TO CSS VARIABLE FOR EASE OF ACCESS IN THE MAIN CSS*/
 :root{
     --formTitle: 'Lato Bold', serif;
     --inputLabel: 'Roboto Regular', serif;

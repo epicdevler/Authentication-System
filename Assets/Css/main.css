@@ -2,3 +2,10 @@
     margin: 0;
     padding: 0;
 }
+/*
+EXAMPLE ON HOW TO USE COLORS AND FONTS ASSETS
+element{
+    color: var(--pink);
+    font-family: var(--formTitle);
+}
+*/

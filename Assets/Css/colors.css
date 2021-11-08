@@ -1,0 +1,9 @@
+:root{
+    --pink: #F551A9;
+    --formBackground: #F1E6EA;
+    --titleTextColor: #393939;
+    --labelTextColor: #000000;
+    --inputsBackground: #FFFFFF;
+    --formButtonGradient: linear-gradient(270deg, #6E6575 5.5%, #6E6575 25.69%, #30223A 100%);
+    --latoNormalBold: lato;
+}

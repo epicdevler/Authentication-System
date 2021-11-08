@@ -1,0 +1,45 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+EXAMPLE ON HOW TO USE COLORS AND FONTS ASSETS
+element{
+    color: var(--pink);
+    font-family: var(--formTitle);
+}
+*/
+
+.body {
+    background-color: var(--formBackground);
+    font-family: var(--dashboardTitle);
+    text-align: center;
+}
+
+.welcome-container {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 200px;
+    position: relative;
+}
+.welcome-container > h1 {
+    font-size: 80px;
+}
+.welcome-container > h2 {
+    font-size: 30px;
+    font-style: var(--inputLabel);
+}
+
+.welcome-container > button {
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    padding: 10px 15px 10px 15px;
+    background-color: var(--pink);
+    border: none;
+    color: white;
+}

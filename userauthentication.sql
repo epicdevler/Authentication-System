@@ -44,7 +44,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `first_name`, `middle_name`, `last_name`, `email`, `contact`, `sex`, `password`) VALUES
-(1, 'loyalsfc', 'OLUMIDE', 'OLUSHOLA', 'BAMBE', 'loyalsfc@gmail.com', '08104123410', 'Male', '$2y$10$2pdPOCLbnzaPLyQ8o1gpC.Mn7UtEhdEuv.ny95nwPcOxHYrOXAlpG');
+(1, 'loyalsfc', 'OLUMIDE', 'OLUSHOLA', 'BAMBE', 'loyalsfc@gmail.com', '08104123410', 'Male', '123456789');
 
 --
 -- Indexes for dumped tables
